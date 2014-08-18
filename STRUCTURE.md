@@ -1,4 +1,4 @@
-Je vais détailler ici la structure provisoire de la scène. Il s'agit d'une structure basée sur celle d'Unity3d. Elle est bien sûr moins complète mais me semble coller avec les ambitions du moteur 2d.
+Je vais détailler ici la structure provisoire de la scène. Il s'agit d'une structure basée sur celle d'Unity3d. Elle est bien sûr moins complète mais me semble coller avec les ambitions du moteur 2d. **Pas encore de méthodes**
 
 * GameObject
   * Name {*string*}
