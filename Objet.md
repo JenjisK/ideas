@@ -9,8 +9,8 @@ Je souhaite donc créer un moteur 2d en javascript/Node.js/HTML5 qui permette de
 * .. mario
 * jeux de plateforme
 * jeux type RPGmaker
-Diverses fonctionnalitées de base
 
+Diverses fonctionnalitées de base
 -------------------
 Afin de préciser les besoins j'ai à préciser les diverses fonctionnalités qu'il me plairait de pouvoir intégrer. Certaines sont certainements plus compliquées, d'autres moins importantes; mais il sera bon, je pense, de les garder à l'oeil lors du développement.
 * Création de scènes à partir d'un format d'objet 2d créé pour l'occasion (il se précisera)
@@ -19,3 +19,10 @@ Afin de préciser les besoins j'ai à préciser les diverses fonctionnalités qu
 * Gestion des layers zzzzolie : Layers accélérés/ralentis pour perspective (agrandissement auto), transparence, etc.
 * Jouer des sons, stereo de manière immersive
 * Multijoueur (point difficile : prévoir un fonctionnement local chez clien ET un foncionnement sur serveur (Node.js))
+
+Avancement
+=========
+Pour le moment peu de choses ont été vraiment "terminées" mais de grandes avancées ont été opérées sur le moteur de collision
+Actuellement
+-----------
+...Je travaille sur l'architecture. J'ai fait une pause dans la gestion des collisions afin de commencer par y voir plus clair sur le projet en général.
