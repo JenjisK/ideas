@@ -1,0 +1,40 @@
+<!-- Déclaration du code minimal pour coder proprement -->
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<!-- Si besoin, pour travailler dessus, on met quelques div/canvas/etc. -->
+		<div id='maDiv'></div>
+		
+		<!-- Insertion du script Js -->
+		<script src='script.js'></script>
+		<!-- Test du script -->
+		<script>
+			// On récupère la div qui est dans le DOM et qui porte l'id "maDiv".
+			var maDiv = document.getElementById('maDiv');
+			// On crée une instance de la classe "compteur"
+			var c = new Compteur(1000);
+			// On initialise un compteur (pas de boucle for ici ..)
+			var k = 2;
+			while(c.value > 0)
+			{
+				// On utilise les méthodes de c, un compteur
+				c.moins(k);
+				// On utilise les fonctions de script.js
+				k = puissance(k, 2);
+				// On rajoute du texte dans la div : la valeur du compteur + un saut de ligne
+				maDiv.innerHTML += c.value+'<br/>';
+				// On affiche la valeur de k en console
+				console.log(k);
+			}
+		</script>
+		<script type="text/javascript">
+			/* D'autres messages pratiques à afficher en console
+				(la console s'ouvre avec F12 sur la plupart des navigateurs) */
+			console.log('Un message simple');
+			console.info('Une information');
+			console.warn('Un avertissement');
+			console.error('Une erreur');
+		</script>
+	</body>
+</html>
